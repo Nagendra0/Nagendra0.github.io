@@ -112,6 +112,20 @@ i{
     color: #fff;
     cursor: pointer;
 }
+#room-Id{
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #075d51;
+    outline: none;
+}
+#user-Id{
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #075d51;
+    outline: none;
+}
 
 @keyframes modalup{
     from{
