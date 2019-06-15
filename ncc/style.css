@@ -11,16 +11,140 @@
   
 .column {
     flex: 33.33%;
+    padding: 0px;
+  }
+.columnN{
+  flex: 28%;
+  padding: 2px;
+}
+.columnP{
+   /*flex: 10%;*/
     padding: 2px;
   }
+
 .rcorners{
     border-radius: 5px;
     border: 2px solid #333333;
-    padding: 2px; 
+    padding: 0px; 
     width: 200;
     height: 20px; 
     color: #73AD21;
+    text-align: center;
     align-content: center;
-    justify-content: center;
   }
+
+.rcornersP{
+    border-radius: 5px;
+    border: 2px solid #333333; 
+    width: 60;
+    height: 20px; 
+    padding: 1px;
+    color: #73AD21;
+    text-align: center;
+    font-size: 1.5ex;
+    background-color: 
+  }
+
+  .rcornersPV{
+    border-radius: 0px;
+      border: 2px solid #333333; 
+      height: 183px;
+      width: 20px;
+      padding: 0;
+      color: #73AD21;
+      text-align: center;
+      font-size: 1.8ex;
+      background-color:#953735;
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+      /*Rotaion of text*/
   
+    /* Safari */
+    -webkit-transform: rotate(180deg);
+  
+     /*Firefox*/
+    -moz-transform: rotate(180deg);
+  
+    /* IE */
+    -ms-transform: rotate(180deg);
+  
+    /* Opera */
+    -o-transform: rotate(180deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+    
+  
+ 
+  }
+.columnP{
+    /*flex: 10%;*/
+     padding: 2px;
+     
+   }
+
+   .recrnersBtn{
+    border-radius: 5px;
+    width: 126px;
+    height: 35px;
+    text-align: center;
+    font-size: 2ex;
+    padding-right: 3px;
+    background-color: blue; 
+  }
+  #loginBtn{
+    border-radius: 5px;
+    width: 126px;
+    height: 35px;
+    text-align: center;
+    font-size: 2ex;
+    padding-right: 3px;
+    background-color: red;
+  }
+
+  .scorners{
+      border-radius: 0px;
+      border: 2px solid #333333; 
+      height: 294px;
+      width: 20px;
+      padding: 0;
+      color: #73AD21;
+      text-align: center;
+      font-size: 1.8ex;
+      background-color:#953735;
+      transform: rotate(180deg);
+      writing-mode: vertical-lr;
+      /*Rotaion of text*/
+  
+    /* Safari */
+    -webkit-transform: rotate(180deg);
+  
+     /*Firefox*/
+    -moz-transform: rotate(180deg);
+  
+    /* IE */
+    -ms-transform: rotate(180deg);
+  
+    /* Opera */
+    -o-transform: rotate(180deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+    
+   
+    }
+    .scornersNotification{
+    border-radius: 5px;
+    border: 2px solid #333333;
+    padding: 0px; 
+    width: 200;
+    height: 20px; 
+    color: #73AD21;
+    text-align: center;
+    align-content: center;
+    }
+    .mNotification{
+      font-size: 20pt;
+      font-style: normal;
+      color: blue;
+    }
