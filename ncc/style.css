@@ -27,7 +27,7 @@
     border: 2px solid #333333;
     padding: 0px; 
     width: 200;
-    height: 20px; 
+    height: 20; 
     color: #73AD21;
     text-align: center;
     align-content: center;
@@ -85,8 +85,8 @@
 
    .recrnersBtn{
     border-radius: 5px;
-    width: 126px;
-    height: 35px;
+    width: 126pt;
+    height: 35pt;
     text-align: center;
     font-size: 10pt;
     padding-right: 3px;
