@@ -37,7 +37,7 @@ p{
     letter-spacing: .05rem;
 }
 .project-title{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 300;
     color: black;
     margin-bottom: 10px;
@@ -278,7 +278,7 @@ p{
 
 /* skill section */
 #project .project-top{
-    min-width: 500px;
+    min-width: 350px;
     margin: 0 auto;
 }
 #project .project{
